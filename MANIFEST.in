@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sheerland *.css
+recursive-include sheerland *.csv
+recursive-include sheerland *.html
+recursive-include sheerland *.ico
+recursive-include sheerland *.js
+recursive-include sheerland *.json
+recursive-include sheerland *.md
+recursive-include sheerland *.png
+recursive-include sheerland *.py
+recursive-include sheerland *.svg
+recursive-include sheerland *.txt
+recursive-exclude sheerland *.pyc
