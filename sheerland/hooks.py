@@ -80,14 +80,14 @@ app_license = "MIT"
 # Hook on document methods and events
 doc_events = {
  	"Farming Stock": {
- 		"after_insert": "sheerland.api.updateqtybystock",
-		"on_update": "sheerland.api.updateqtybystock",
-		"after_delete": "sheerland.api.updateqtybystock"
+ 		"after_insert": "erpnext.api.updateqtybystock",
+		"on_update": "erpnext.api.updateqtybystock",
+		"after_delete": "erpnext.api.updateqtybystock"
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 	},
 	"Equipment and Maintenance": {
-		"on_trash": "sheerland.api.updateqtybyfield"
+		"on_trash": "erpnext.api.updateqtybyfield"
 	}
 }
 

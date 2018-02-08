@@ -1,0 +1,24 @@
+{
+ "add_total_row": 1, 
+ "apply_user_permissions": 1, 
+ "creation": "2017-11-20 13:17:46.692848", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "json": "{\"add_total_row\": 1, \"sort_by\": \"Farming Stock.modified\", \"add_totals_row\": true, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"name\", \"Farming Stock\"], [\"qty\", \"Farming Stock\"], [\"price\", \"Farming Stock\"], [\"total_available\", \"Farming Stock\"]]}", 
+ "modified": "2017-11-20 13:23:46.846519", 
+ "modified_by": "Administrator", 
+ "module": "Sheerland", 
+ "name": "sheerland", 
+ "owner": "Administrator", 
+ "ref_doctype": "Farming Stock", 
+ "report_name": "sheerland", 
+ "report_type": "Report Builder", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

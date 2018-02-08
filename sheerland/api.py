@@ -33,3 +33,5 @@ def updateqtybyfield(doc, method):
 		for stock in stocks:
 			frappe.delete_doc("Farming Stock", stock.name)
 			
+			
+			
